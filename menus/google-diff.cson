@@ -1,0 +1,13 @@
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'Gpool Diff'
+      'submenu': [
+        { 'label': 'Move to Next Diff',     'command': 'gpool-diff:move-to-next-diff' }
+        { 'label': 'Move to Previous Diff', 'command': 'gpool-diff:move-to-previous-diff' }
+        { 'label': 'Toggle Diff List',      'command': 'gpool-diff:toggle-diff-list' }
+      ]
+    ]
+  }
+]

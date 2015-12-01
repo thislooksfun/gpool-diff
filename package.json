@@ -1,0 +1,30 @@
+{
+  "name": "gpool-diff",
+  "main": "./lib/main",
+  "version": "0.0.0",
+  "description": "Plugin for 'gpool' that adds git diff status to the gutter",
+  "author": "thislooksfun",
+  "keywords": [
+    "gpool",
+    "diff"
+  ],
+  "repository": "https://github.com/thislooksfun/gpool-diff",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "consumedServices": {
+    "gpool-base": {
+      "versions": {
+        "1.0.0": "consumeGpoolServiceV1"
+      }
+    }
+  },
+  "dependencies": {
+    "atom-package-dependencies": "^1.0.3",
+    "atom-space-pen-views": "^2.1.0"
+  },
+  "package-dependencies": {
+    "gpool-base": "versions not supported yet"
+  }
+}

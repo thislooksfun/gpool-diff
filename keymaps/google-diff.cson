@@ -1,0 +1,4 @@
+'atom-text-editor':
+  'alt-g down': 'gpool-diff:move-to-next-diff'
+  'alt-g up':   'gpool-diff:move-to-previous-diff'
+  'alt-g d':    'gpool-diff:toggle-diff-list'
